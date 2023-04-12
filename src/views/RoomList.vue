@@ -6,8 +6,6 @@
         <v-app-bar app shrink-on-scroll>
           <v-toolbar-title>ルーム一覧</v-toolbar-title>
 
-          <create-room />
-
           <v-spacer></v-spacer>
 
           <v-btn icon>
@@ -17,6 +15,7 @@
 
         <v-main>
           <v-container>
+            <create-room class="mb-3" />
             <v-row>
               <v-col v-for="room in rooms" :key="room.id" cols="4">
                 <router-link

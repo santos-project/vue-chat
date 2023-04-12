@@ -6,6 +6,7 @@ import RoomList from "../views/RoomList.vue";
 import ChatBoard from "../views/ChatBoard.vue";
 import VueLogin from "../views/VueLogin.vue";
 import VueSignUp from "../views/VueSignUp.vue";
+import VueProfile from "../views/VueProfile.vue";
 // import firebase from "@/firebase/firebase";
 
 Vue.use(VueRouter);
@@ -40,6 +41,11 @@ const routes = [
     path: "/signup",
     name: "VueSignUp",
     component: VueSignUp,
+  },
+  {
+    path: "/profile",
+    name: "VueProfile",
+    component: VueProfile,
   },
 ];
 

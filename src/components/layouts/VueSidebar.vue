@@ -54,10 +54,8 @@ export default {
   data: () => ({
     drawer: null,
     links: [
-      ["mdi-inbox-arrow-down", "Inbox", "/"],
-      ["mdi-send", "Send", "/about"],
-      ["mdi-delete", "Trash", "/chat"],
-      ["mdi-alert-octagon", "Spam", "/about"],
+      ["mdi-account", "Profile", "/profile"],
+      ["mdi-chat", "Room", "/"],
     ],
     auth: null,
     photoUrl: "",
